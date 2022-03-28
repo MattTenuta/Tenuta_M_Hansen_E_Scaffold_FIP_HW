@@ -3,7 +3,21 @@
    Fonts and Such
    _____________________________________  */
 
-h2 {
+img {
+    max-width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+   h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 32px;
 }
