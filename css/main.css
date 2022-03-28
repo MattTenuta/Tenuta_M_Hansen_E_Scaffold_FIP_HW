@@ -6,51 +6,111 @@
         display: none;
     }
 
-    header {
+/* Header Stuff */
+
+    header .nav {
         display: flex;
         align-items: center;
+        justify-content: space-evenly;
         min-height: 3em;
-        width: 520px;
         background-color: lightblue;
     }
 
-    .body {
-        max-width: 520px;
-    }
-
     .nav img {
-        padding: 1em 1.5em;
-        margin: 1em 0em 1em 2em;
-        background-color: grey;
+        margin: 1em;
     }
 
     .nav ul {
         display: none;
-        justify-content: space-evenly;
     }
 
-    .nav li {
-        display: inline;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 18px;
+    .burgerMenu {
+        display: flex;
+        flex-direction: column;
+        max-width: .25em;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-wrap: wrap;
+        margin: .1em;
+        flex-direction: column;
         background-color: grey;
-        margin-left: 5em;
-        padding: 1em;
-        border-radius: 3px;
+        padding: .25em 1em;
+
     }
 
     .nav a {
         color: white;
     }
 
-    .socials, .social {
-        width: 75px;
+    /* Images */
+
+    .hero-image {
+        background-color: #ccc;
+        display: block;
+        height: 300px;
     }
 
-    #siteContainer {
-        margin: 0 auto;
-        width: 520px;
-       }
+    .imgContainer {
+        display: flex;
+    }
+
+    .img {
+        background-color: #ccc;
+        display: flex;
+        height: 300px;
+        width: 200px;
+    }
+
+    .logo {
+        background-color: grey;
+        padding: 1em 1.5em;
+        margin: 1em 0em 1em 2em;
+    }
+
+    /* Text */
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+        font-size: 32px;
+    }
+
+    p {
+       margin: 2em; 
+       font-size: 18px;
+    }
+
+    /* Footer Stuff */
+
+    footer {
+        display: flex;
+        background-color: lightblue;
+    }
+
+    footer .nav {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightblue;
+    }
+
+    .contact {
+        display: flex;
+        float: right;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        float: right;
+    }
+
+    .social {
+        width: 50px;
+    }
+
 
 }
 
