@@ -1,1 +1,7 @@
-# Tenuta_M_Hansen_E_Scaffold_FIP_HW
+## Web Dev Mobile Scaffold Homework
+
+This is the homework of Evan Hansen & Matthew Tenuta
+
+### Inspiration
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
