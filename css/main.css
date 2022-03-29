@@ -285,27 +285,27 @@ h4 {
     .floatImgLeft {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: start;
+        flex-direction: row;
         justify-content: left;
         margin-right: 1em;
     }
 
     .floatImgLeft img {
         max-height: 200px;
-        max-width: auto;
+        max-width: 100px;
     }
 
     .floatImgRight {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: end;
+        flex-direction: row;
         justify-content: right;
         margin-right: 1em;
     }
     
     .floatImgRight img {
         max-height: 200px;
-        max-width: auto;
+        max-width: 100px;
     }
 
 .center {
