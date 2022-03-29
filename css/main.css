@@ -33,6 +33,7 @@
     .hamburger {
         display: flex;
         flex-wrap: wrap;
+        border-radius: 2em;
         margin: .1em;
         flex-direction: column;
         background-color: grey;
