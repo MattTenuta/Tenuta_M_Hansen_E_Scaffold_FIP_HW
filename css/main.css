@@ -1,9 +1,129 @@
+
+/* Before 520px, display htis */
+@media screen and (max-width: 520px) {
+
+    .hidden {
+        display: none;
+    }
+
+/* Header Stuff */
+
+    header .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        min-height: 3em;
+        background-color: lightblue;
+    }
+
+    .nav img {
+        margin: 1em;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: flex;
+        flex-direction: column;
+        max-width: .25em;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 2em;
+        margin: .1em;
+        flex-direction: column;
+        background-color: grey;
+        padding: .25em 1em;
+
+    }
+
+    .nav a {
+        color: white;
+    }
+
+    /* Images */
+
+    .hero-image {
+        background-color: #ccc;
+        display: block;
+        height: 300px;
+    }
+
+    .imgContainer {
+        display: flex;
+    }
+
+    .img {
+        background-color: #ccc;
+        display: flex;
+        height: 300px;
+        width: 200px;
+    }
+
+    .logo {
+        background-color: grey;
+        padding: 1em 1.5em;
+        margin: 1em 0em 1em 2em;
+    }
+
+    /* Text */
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+        font-size: 32px;
+    }
+
+    p {
+       margin: 2em; 
+       font-size: 18px;
+    }
+
+    /* Footer Stuff */
+
+    footer {
+        display: flex;
+        background-color: lightblue;
+    }
+
+    footer .nav {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightblue;
+    }
+
+    .contact {
+        display: flex;
+        float: right;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        float: right;
+    }
+
+    .social {
+        width: 50px;
+    }
+
+
+}
+
+@media screen and (min-width: 521px) {
+
+
 /*_____________________________________
 
    Fonts and Such
    _____________________________________  */
 
-img {
+   img {
     max-width: 100%;
 }
 
@@ -342,4 +462,5 @@ h4 {
 .background {
     background-color: grey;
     height: 500px;
+}
 }
